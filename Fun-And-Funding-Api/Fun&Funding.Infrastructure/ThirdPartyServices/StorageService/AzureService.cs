@@ -14,7 +14,7 @@ namespace Fun_Funding.Infrastructure.ExternalServices.StorageService
     {
         BlobServiceClient _blobServiceClient;
         BlobContainerClient _blobContainerClient;
-        private string cnContainer = "DefaultEndpointsProtocol=https;AccountName=funfundingmediafiles;AccountKey=Qr/V2+T1qTPRU85rvsQecbfIXCN9k9rPieCb0nK5R8SZvi1bqGAv85kp5IaFlAFjDhNHUB7WxOh++ASt9KE9LQ==;EndpointSuffix=core.windows.net";
+        public string cnContainer = "";
         public AzureService()
         {
             _blobServiceClient = new BlobServiceClient(cnContainer);
