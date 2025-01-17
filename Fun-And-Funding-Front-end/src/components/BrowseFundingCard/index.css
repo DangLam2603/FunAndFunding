@@ -1,0 +1,40 @@
+.browse-funding-parent-card {
+  position: relative;
+}
+
+.browse-funding-children-card {
+  position: absolute;
+  display: flex;
+  background-color: #f5f7f8;
+  top: -2.2rem;
+  width: 80%;
+}
+
+.browse-funding-project-card-name {
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.browse-funding-project-card-name::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #1baa64;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.browse-funding-project-card-name:hover::after {
+  transform: scaleX(1);
+}
+
+.browse-funding-project-card-name:hover {
+  cursor: pointer;
+}

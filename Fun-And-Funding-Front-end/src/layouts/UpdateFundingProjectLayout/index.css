@@ -1,0 +1,32 @@
+.update-project-section {
+    color: #F5F7F8;
+    font-weight: 700 !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 4rem;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.update-project-section:hover {
+    background-color: #88D1AE;
+    color: #F5F7F8;
+}
+
+.fixed-update-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5.5rem;
+    padding-left: 3rem;
+    height: 5rem;
+    align-items: center;
+    z-index: 10;
+}

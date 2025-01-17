@@ -1,0 +1,38 @@
+.carousel-image {
+    width: 800px !important;
+    /* or any custom size */
+    height: 100%;
+    object-fit: fill;
+}
+
+.liveContain .liveThumb {
+    visibility: hidden;
+}
+
+.liveContain {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carousel img,
+.carousel video {
+    object-fit: contain;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.thumb {
+    object-fit: cover;
+    height: 4rem !important;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.1);
+
+}
+
+.thumb video,
+.thumb img {
+    object-fit: contain;
+    height: 100%;
+}

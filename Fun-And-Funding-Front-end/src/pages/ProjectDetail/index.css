@@ -1,0 +1,60 @@
+.Mui-selected {
+    background-color: "none !important";
+}
+
+.carousel .thumbs {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.like-btn {
+    font-size: 20px !important;
+}
+
+.like-btn:hover {
+    background-color: #ffffff !important;
+    color: #1BAA64 !important;
+    border: 2px solid #1BAA64 !important;
+    box-shadow: none !important;
+}
+
+.like-btn:focus {
+    outline: none !important;
+}
+
+/* .detail-tab {
+    padding-top: 20px;
+} */
+
+.detail-tab .MuiTabs-flexContainer {
+    justify-content: center !important;
+    border-top: 1px solid #F5F7F8;
+    border-bottom: 1px solid #F5F7F8;
+}
+
+.detail-tab button {
+    font-size: 1rem;
+}
+
+.background-animate {
+    background-size: 400%;
+
+    -webkit-animation: DetailMovingBg 15s ease infinite;
+    -moz-animation: DetailMovingBg 15s ease infinite;
+    animation: DetailMovingBg 15s ease infinite;
+}
+
+@keyframes DetailMovingBg {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

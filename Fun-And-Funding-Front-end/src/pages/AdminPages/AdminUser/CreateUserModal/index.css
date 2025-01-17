@@ -1,0 +1,18 @@
+.manage-user-create-small-textfield .MuiOutlinedInput-root {
+  height: 2.5rem !important;
+  font-size: 1rem !important;
+  border-color: var(--black) !important;
+}
+
+.manage-user-small-textfield .MuiOutlinedInput-root.Mui-focused {
+  border-color: var(--black) !important;
+}
+
+.manage-user-create-small-textfield .MuiOutlinedInput-notchedOutline {
+  border-color: var(--grey) !important;
+}
+
+.manage-user-create-small-textfield-input {
+  font-size: 1rem !important;
+  padding: 4px 2px !important;
+}

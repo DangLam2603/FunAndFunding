@@ -1,0 +1,106 @@
+.checkout-cart-title {
+    font-weight: 700 !important;
+    font-size: 1.75rem !important;
+    color: var(--black);
+    text-align: left;
+    margin-bottom: 1.5rem !important;
+}
+
+.checkout-cart-subtitle {
+    font-weight: 700 !important;
+    font-size: 1.25rem !important;
+    color: var(--black);
+    text-align: left;
+}
+
+.checkout-cart-row-title {
+    font-weight: 600 !important;
+    font-size: 1rem;
+    color: #A4A7AD !important;
+    text-align: left;
+}
+
+.checkout-cart-row-content {
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    color: var(--black);
+    text-align: right;
+}
+
+.checkout-cart-confirm-button {
+    border-radius: 0.625rem;
+    text-transform: none !important;
+    font-size: 1rem !important;
+    padding: 0.813rem 3.5rem;
+    width: 100%;
+    font-weight: 600 !important;
+    height: 3rem;
+    background-color: var(--primary-green);
+    color: var(--white);
+}
+
+.checkout-cart-confirm-button:enabled {
+    background-color: var(--primary-green);
+    color: var(--white);
+}
+
+.checkout-cart-icon {
+    margin-right: 0.5rem;
+    color: var(--primary-green) !important;
+}
+
+.checkout-cart-more-button {
+    border-radius: 0.625rem;
+    text-transform: none !important;
+    font-size: 1rem !important;
+    padding: 0.813rem 3.5rem;
+    margin-top: 2rem !important;
+    width: 20%;
+    font-weight: 600 !important;
+    height: 3rem;
+    background-color: var(--primary-green) !important;
+    color: var(--white) !important;
+}
+
+.checkout-cart-banner-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8rem !important;
+}
+
+.checkout-cart-banner-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.checkout-cart-banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(47, 54, 69, 0.9);
+}
+
+.checkout-cart-banner-content {
+    font-weight: 700 !important;
+    font-size: 2rem !important;
+    color: #F5F7F8;
+    z-index: 2 !important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.checkout-cart-paper {
+    background-color: var(--white) !important;
+    padding: 2rem;
+    border-radius: 0.625rem !important;
+    box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12) !important;
+}

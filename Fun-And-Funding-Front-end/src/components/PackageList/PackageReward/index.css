@@ -1,0 +1,18 @@
+.package-reward {
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    border-radius:  10px;
+    width : 700px;
+    background-color: #FFFFFF;
+}
+.package-image {
+    height: 210px;
+    width: 340px;
+    overflow: hidden;
+    margin-right: 20px; /* Ẩn phần dư thừa của ảnh nếu có */
+}
+
+.package-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Đảm bảo hình ảnh luôn giữ đúng tỷ lệ mà không bị bể */
+}

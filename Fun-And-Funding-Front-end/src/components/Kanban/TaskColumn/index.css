@@ -1,0 +1,39 @@
+.task_column_heading {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 6px 8px 6px 12px;
+    color : #fff;
+    
+}
+
+.task_column_icon {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.task_column_body{
+    max-height: 600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    vertical-align: top;
+    white-space: normal;
+    scroll-margin: 8px;
+}
+
+.task_column_body::-webkit-scrollbar {
+    width: 8px; /* Adjust scrollbar width */
+    
+}
+.task_column_body::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar */
+    border-radius: 4px;
+    
+}
+
+.task_column_body::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Track color */
+    border-radius: 4px;
+    
+}

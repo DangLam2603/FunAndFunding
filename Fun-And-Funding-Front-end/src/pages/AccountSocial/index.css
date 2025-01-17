@@ -1,0 +1,45 @@
+.account-social-tab.Mui-selected {
+  color: var(--primary-green) !important;
+  font-weight: bold;
+}
+
+.account-social-tablist {
+  background-color: var(--white);
+  display: flex;
+  justify-content: flex-start;
+}
+
+.account-social-tablist .Mui-disabled {
+  opacity: 0.3 !important;
+}
+
+.account-social-tablist .MuiTabs-indicator {
+  display: flex;
+  justify-content: center;
+  height: 0.25rem;
+  border-radius: 0.625rem;
+  background-color: var(--primary-green) !important;
+}
+
+.account-social-tab {
+  font-style: normal !important;
+  font-size: 0.875rem !important;
+  font-weight: 300;
+  padding: 1.5rem 2rem !important;
+  white-space: nowrap !important;
+  text-transform: none !important;
+  color: rgba(47, 54, 69, 0.8) !important;
+}
+
+.account-social-tab:active,
+.account-social-tab:focus {
+  outline: none !important;
+  color: var(--primary-green) !important;
+  background: transparent !important;
+}
+
+.account-social-tab-context {
+  position: sticky;
+  top: 0;
+  margin-top: 4rem;
+}

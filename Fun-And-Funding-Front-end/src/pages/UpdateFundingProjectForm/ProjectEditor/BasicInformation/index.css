@@ -1,0 +1,40 @@
+.basic-info-section {
+    padding-top: 2rem;
+    padding-left: 4rem;
+    margin-bottom: 1rem;
+    height: fit-content;
+}
+
+.basic-info-title {
+    color: #2F3645;
+    font-size: 1rem;
+    font-weight: 700 !important;
+    user-select: none;
+    width: 100%;
+    margin-bottom: 0.25rem !important
+}
+
+.basic-info-subtitle {
+    color: #2F3645;
+    font-size: 1rem;
+    font-weight: 300;
+    user-select: none;
+    width: 100%;
+    margin-bottom: 1rem !important
+}
+
+.custom-update-textfield {
+    width: 70%;
+}
+
+.custom-update-textfield .MuiOutlinedInput-root:hover fieldset {
+    border-color: #2F3645;
+}
+
+.custom-update-textfield .MuiOutlinedInput-root.Mui-focused fieldset {
+    border-color: #2F3645;
+}
+
+.custom-update-filepond {
+    width: 70%;
+}

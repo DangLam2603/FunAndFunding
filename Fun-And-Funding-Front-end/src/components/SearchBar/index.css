@@ -1,0 +1,14 @@
+@media (max-width: 1199px) {
+    .searchSelection {
+        justify-content: start;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .searchSelection {
+        justify-content: flex-end !important;
+        width: 50% !important;
+    }
+}

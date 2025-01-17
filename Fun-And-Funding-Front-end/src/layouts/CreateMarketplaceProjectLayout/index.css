@@ -1,0 +1,31 @@
+.step_index {
+  /* border: .1rem solid black; */
+  padding: .8rem 1rem !important;
+  border-radius: .5rem;
+  /* background: white; */
+}
+
+.MuiStepContent-root {
+  padding: 0 .8rem !important;
+  font-size: .8rem;
+  border: none !important;
+
+}
+
+.MuiStepConnector-line {
+  border-left-width: .15rem !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.Mui-active .MuiStepConnector-line,
+.Mui-completed .MuiStepConnector-line {
+  border-color: var(--primary-green) !important;
+}
+
+.MuiStepLabel-root p {
+  font-size: .8rem !important;
+}
+
+.MuiStepContent-root p {
+  font-size: .88rem !important;
+}

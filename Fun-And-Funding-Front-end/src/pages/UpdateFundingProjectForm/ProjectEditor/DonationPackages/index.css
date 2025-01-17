@@ -1,0 +1,7 @@
+.package-table-cell {
+    font-size: 1rem;
+    flex-grow: 1;
+    padding: 0.5rem 1rem;
+    font-weight: 700 !important;
+    color: #F5F7F8 !important
+}

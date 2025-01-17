@@ -1,0 +1,42 @@
+/* General table styling */
+.milestoneTable-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #f8f9fa; /* Light background for table container */
+    border-radius: 8px;
+  }
+  
+  .milestoneTable-header {
+    background-color: #1BAA64; /* Primary blue color for the header */
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .milestoneTable-row {
+    &:hover {
+      background-color: #e3f2fd; /* Subtle hover color */
+    }
+  }
+  
+  .milestoneTable-cell {
+    padding: 12px;
+    color: #555; /* Soft text color */
+    font-size: 0.9rem;
+  }
+  
+  .milestoneTable-iconButton {
+    color: #1BAA64;
+  }
+  
+  .requirementsContainer {
+    background-color: #1baa6500; /* Lighter background for expanded rows */
+    padding: 16px;
+  }
+  
+  .requirementsTitle {
+    color: #1BAA64;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  

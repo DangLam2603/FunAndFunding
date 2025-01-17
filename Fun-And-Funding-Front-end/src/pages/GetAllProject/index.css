@@ -1,0 +1,18 @@
+.crowBanner {
+    background-image: url('../../assets/images/techBack.jpg');
+}
+
+.crowBanner1 {
+    background-image: url('https://c1.iggcdn.com/indiegogo-media-prod-cld/image/upload/g_center,q_auto,f_auto/v1588904443/explore/hero/desktop/all.jpg');
+background-repeat: no-repeat;
+object-fit: cover;
+width: 100%;
+background-size: cover;
+}
+
+.seperator {
+    width: 60%;
+    height: 1px;
+    margin-top: 20px;
+    background-color: gray;
+}

@@ -1,0 +1,28 @@
+.user-project-card {
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.user-project-card::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #1BAA64;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.user-project-card:hover::after {
+    transform: scaleX(1);
+}
+
+.user-project-card:hover {
+    cursor: pointer;
+}

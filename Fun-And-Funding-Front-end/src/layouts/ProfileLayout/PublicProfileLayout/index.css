@@ -1,0 +1,77 @@
+ h1 {
+    font-size: 1.625rem !important;
+}
+
+ h2 {
+    font-size: 1.219rem !important;
+}
+
+ .ql-size-small {
+    font-size: 0.609rem !important;
+}
+
+ .ql-size-normal {
+    font-size: 0.813rem !important;
+}
+
+ .ql-size-large {
+    font-size: 1.219rem !important;
+}
+
+ .ql-size-huge {
+    font-size: 2.031rem !important;
+}
+
+ h1 .ql-size-small {
+    font-size: 1.219rem !important;
+}
+
+ h1 .ql-size-normal {
+    font-size: 1.625rem !important;
+}
+
+ h1 .ql-size-large {
+    font-size: 2.438rem !important;
+}
+
+ h1 .ql-size-huge {
+    font-size: 4.063rem !important;
+}
+
+ h2 .ql-size-small {
+    font-size: 0.914rem !important;
+}
+
+ h2 .ql-size-normal {
+    font-size: 1.219rem !important;
+}
+
+ h2 .ql-size-large {
+    font-size: 1.828rem !important;
+}
+
+ h2 .ql-size-huge {
+    font-size: 3.047rem !important;
+}
+
+ ol {
+    list-style-type: decimal;
+}
+
+ ul {
+    list-style-type: disc;
+}
+
+/* Blockquote Styling */
+ blockquote {
+    quotes: "“" "”" "‘" "’";
+    /* Define quotes */
+}
+
+ blockquote:before {
+    content: open-quote;
+}
+
+ blockquote:after {
+    content: close-quote;
+}

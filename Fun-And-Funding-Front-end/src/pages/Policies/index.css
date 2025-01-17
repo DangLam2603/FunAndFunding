@@ -1,0 +1,20 @@
+.term-container {
+    padding: 20px 24px;
+    margin: 3.2px 0px;
+    background-color: #ffffff;
+}
+
+.term-title {
+    font-size: 18px;
+    font-weight: 700 !important;
+    color: #1BAA64 !important;
+}
+
+.term-content{
+    font-size:16px;
+}
+.term-content p{
+    font-size:16px;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}

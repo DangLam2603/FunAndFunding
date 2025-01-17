@@ -1,0 +1,65 @@
+.manage-user-detail-block-button {
+  white-space: nowrap !important;
+  background: var(--red) !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  margin-top: 0.5rem;
+  margin-right: 1rem !important;
+  font-size: 1rem !important;
+  color: var(--white) !important;
+}
+
+.manage-user-detail-block-button:hover {
+  background: #b3433e !important;
+}
+
+.manage-user-detail-unblock-button {
+  white-space: nowrap !important;
+  background: var(--primary-green) !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  margin-top: 0.5rem;
+  margin-right: 1rem !important;
+  font-size: 1rem !important;
+  color: var(--white) !important;
+}
+
+.manage-user-detail-unblock-button:hover {
+  background: #159653 !important;
+}
+
+.manage-user-detail-cancel-button {
+  white-space: nowrap !important;
+  background: var(--light-grey) !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  margin-top: 0.5rem;
+  font-size: 1rem !important;
+  box-shadow: none !important;
+  color: var(--black) !important;
+}
+
+.manage-user-detail-cancel-button:hover {
+  background: var(--grey) !important;
+}
+
+.manage-user-detail-popup-cancel-button {
+  color: var(--white) !important;
+}
+
+.manage-user-detail-popup {
+  z-index: 9999 !important;
+}
+
+.manage-user-detail-popup-confirm-button {
+  background-color: var(--red) !important;
+  color: white !important;
+}
+
+.manage-user-detail-popup.success {
+  background-color: #28a745 !important;
+}
+
+.manage-user-detail-popup-confirm-button.success {
+  background-color: #218838 !important;
+}
