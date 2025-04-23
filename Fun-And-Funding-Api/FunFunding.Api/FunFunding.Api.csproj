@@ -24,9 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Fun&amp;Funding.Application\Fun&amp;Funding.Application.csproj" />
-    <ProjectReference Include="..\Fun&amp;Funding.Domain\Fun&amp;Funding.Domain.csproj" />
-    <ProjectReference Include="..\Fun&amp;Funding.Infrastructure\Fun&amp;Funding.Infrastructure.csproj" />
+    <ProjectReference Include="..\FunFunding.Application\FunFunding.Application.csproj" />
+    <ProjectReference Include="..\FunFunding.Domain\FunFunding.Domain.csproj" />
+    <ProjectReference Include="..\FunFunding.Infrastructure\FunFunding.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

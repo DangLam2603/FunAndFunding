@@ -134,7 +134,7 @@ namespace Fun_Funding.Api
             app.UseStaticFiles(new StaticFileOptions
             {
                 FileProvider = new PhysicalFileProvider(
-        Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory()).FullName, "Fun&Funding.Infrastructure", "Media")),
+        Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory()).FullName, "FunFunding.Infrastructure", "Media")),
                 RequestPath = "/Media"
             });
 
